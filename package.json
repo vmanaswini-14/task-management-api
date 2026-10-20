@@ -1,0 +1,16 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "RESTful Task Management API with SQLite persistence and input validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
